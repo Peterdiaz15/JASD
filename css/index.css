@@ -46,6 +46,11 @@ padding-left: 0px;
 #img-producto{
 	height: 250px;
 }
+#img-producto:hover{
+	animation-name: expandir;
+  	animation-duration: 3s;
+  	animation-fill-mode: both;	
+}
 #texto-pr{
 	color: #cccccc;
 	text-align: center;
@@ -82,3 +87,13 @@ label{
     	text-align: center;
     }
    }
+
+   /*Animaciones*/
+   @keyframes expandir {
+  from {
+  	transform: scale(1,1);
+  }
+  to {
+  	transform: scale(1.2,1.2);
+  }
+}

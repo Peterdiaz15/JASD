@@ -67,9 +67,9 @@
 <div id="contenedor1">
 <div>	
 <div>
-<a href=""><img src="../img/instagram.png" height="50px" class="img-footer"></a>
-<a href="https://www.facebook.com/JASD-121211771920095" target="blank"><img src="../img/facebook.png" height="50px" class="img-footer"></a>
-<a href=""><img src="../img/twitter.png" height="50px" class="img-footer"></a>	
+<a href=""><img src="./img/instagram.png" height="50px" class="img-footer"></a>
+<a href="https://www.facebook.com/JASD-121211771920095" target="blank"><img src="./img/facebook.png" height="50px" class="img-footer"></a>
+<a href=""><img src="./img/twitter.png" height="50px" class="img-footer"></a>	
 </div>
 </div>
 </div>	
@@ -78,7 +78,7 @@
 <h6>Soluciones Peter</h6>	
 </div>
  <div class="col-12 col-lg-4" id="contenedor3">
-	<a href="../cancelar/index.php"><img src="../img/jasd-logo.png"></a>
+	<a href="../cancelar/index.php"><img src="./img/jasd-logo.png"></a>
 </div> 	
 </div>	
 </div>	
