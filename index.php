@@ -22,7 +22,7 @@
  </div>
  <div class="row display-flex" id="productos">
  	<div class="margin-auto row">
- 		<div class="col-4 row">
+ 		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-1.png" class="margin-auto" id="img-producto">
  			</div>
@@ -30,7 +30,7 @@
  				<h4 class="margin-auto" id="texto-pr">Stickers para bicis</h4>
  			</div>
  		</div>
- 		<div class="col-4 row">
+ 		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-2.png" class="margin-auto" id="img-producto">
  			</div>
@@ -38,7 +38,7 @@
  				<h4 class="margin-auto" id="texto-pr">Sublimado</h4>
  			</div>
  		</div>
- 		<div class="col-4 row">
+ 		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-3.png" class="margin-auto" id="img-producto">
  			</div>
@@ -46,7 +46,7 @@
  				<h4 class="margin-auto" id="texto-pr">Diseño de vinil para motos</h4>
  			</div>
  		</div>
- 		<div class="col-4 row">
+ 		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-4.png" class="margin-auto" id="img-producto">
  			</div>
@@ -54,7 +54,7 @@
  				<h4 class="margin-auto" id="texto-pr">Rotulado de autos</h4>
  			</div>
  		</div>
- 		<div class="col-4 row">
+ 		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-5.png" class="margin-auto" id="img-producto">
  			</div>
@@ -62,7 +62,7 @@
  				<h4 class="margin-auto" id="texto-pr">Diseño de playeras</h4>
  			</div>
  		</div>
- 		<div class="col-4 row">
+ 		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-6.png" class="margin-auto" id="img-producto">
  			</div>
