@@ -112,7 +112,8 @@
  	</div>
  </div>
  <?php
- 
+
+  
  	include 'php/modal-sticker.php'; 
  	include 'php/footer.php';
   ?>
