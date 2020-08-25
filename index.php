@@ -24,7 +24,7 @@
  	<div class="margin-auto row">
  		<div class="col-6 col-md-4 row">
  			<div class="col-12 display-flex padding-cont">
- 				<img src="img/imagen-1.png" class="margin-auto" id="img-producto">
+ 				<img src="img/imagen-1.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalNoRealizado">
  			</div>
  			<div class="col-12 display-flex padding-cont">
  				<h4 class="margin-auto" id="texto-pr">Stickers para bicis</h4>
@@ -80,7 +80,7 @@
  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.4455532137032!2d-101.18207757077153!3d20.143131558231804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cfabefff9b5bf%3A0x8d402e65397625a2!2sSebasti%C3%A1n%20Lerdo%20de%20Tejada%2033%2C%20Zona%20Centro%2C%2038980%20Uriangato%2C%20Gto.!5e0!3m2!1ses!2smx!4v1598129195716!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
  	</div>
  	<div class="col-12 display-flex">
- 		<h5 class="margin-auto espacio titulo">Lerdo de Tejada #17 B Col. Centro Uriangato Gto Tel: 445 111 9595</h5>
+ 		<h5 class="margin-auto espacio titulo">Lerdo de Tejada #17 C Col. Centro Uriangato Gto Tel: <a href="tel:4451119595" class="numero">445 111 9595</a></h5>
  	</div>
  </div>
  <div class="row" id="contacto">
@@ -111,12 +111,14 @@
  		<h3 class="titulo margin-auto espacio">O contactanos por Whatsapp  <span><a href="https://wa.link/gvh1r1" target="blank"><img src="img/whatsapp.png" height="40px"></a></span></h3>
  	</div>
  </div>
- <?php 
+ <?php
+ 	include 'php/modal-sticker.php'; 
  	include 'php/footer.php';
   ?>
 </div>
 <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

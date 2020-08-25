@@ -74,7 +74,13 @@ label{
 .form-group button:hover{
 	background: #e56706;
 }
-
+.numero{
+	color: #FF9C4C;
+	text-decoration: none !important;
+}
+.numero:hover{
+	color: #00B6DF;
+}
   @media (max-width: 991.98px) { 
 
     #productos>div:first-child {
