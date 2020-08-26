@@ -103,3 +103,21 @@ label{
   	transform: scale(1.2,1.2);
   }
 }
+
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: block;
+  background: tomato;
+  color: white;
+  padding: 0.3rem 1rem;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+  .back-to-top:hover {
+    opacity: 1;
+  }
+

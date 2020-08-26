@@ -112,12 +112,11 @@
  	</div>
  </div>
  <?php
-
-  
  	include 'php/modal-sticker.php'; 
  	include 'php/footer.php';
   ?>
 </div>
+<a class="back-to-top" style="color: white; text-decoration: none; border-radius: 5px;">Volver arriba</a>
 <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
