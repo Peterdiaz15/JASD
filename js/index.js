@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+
 $(function(){
 $('a[href*=\\#]').click(function() {
 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -32,4 +33,27 @@ var subir = $('.back-to-top');
     }
     
   });
+
+  /*Cambio de imagen principal*/
+  var height = $(window).height();
+  var width = $(window).width();
+  if (height>width) {
+      $("#imagen-principal").attr("src","../img/banner1-mobil.png");
+  }else{
+   $("#imagen-principal").attr("src","../img/banner1.png");
+  }
+
+    $(window).resize(function(){
+     var height = $(window).height();
+     var width = $(window).width();   
+    if (height>width) {
+      $("#imagen-principal").attr("src","../img/banner1-mobil.png");
+    }else{
+        $("#imagen-principal").attr("src","../img/banner1.png");
+    }
+
+      });
+
+   
+
 });
