@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>JASD</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -88,18 +88,22 @@
  		<h2 class="titulo margin-auto espacio">Contacto</h2>
  	</div>
  	<div class="col-12 display-flex" id="formulario">
- 		<form class="margin-auto">
+ 		<form class="margin-auto" method="post" action="php/correo.php">
  			<div class="form-group">
  				<label for="exampleInputEmail1">Nombre :</label>
- 				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+ 				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nombre">
  			</div>
  			<div class="form-group">
  				<label for="exampleInputPassword1">Correo Eléctronico :</label>
- 				<input type="password" class="form-control" id="exampleInputPassword1">
+ 				<input type="password" class="form-control" id="exampleInputPassword1" name="correo">
+ 			</div>
+ 			<div class="form-group">
+ 				<label for="exampleInputPassword1">Telefono :</label>
+ 				<input type="password" class="form-control" id="exampleInputPassword1" name="telefono">
  			</div>
  			<div class="form-group">
  				<label for="exampleInputPassword1">Comentario :</label>
- 				 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+ 				 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentario"></textarea>
  			</div>
  			<div class="form-group display-flex">
  				<button type="submit" class="btn btn-primary margin-auto">ENVIAR</button>
