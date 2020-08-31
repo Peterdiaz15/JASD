@@ -56,3 +56,5 @@ $mail = @mail($to, $subject, $message, $headers, $returnpath);
 
 //Estado de envío de correo electrónico
 //echo $mail?"<h1>Correo enviado.</h1>":"<h1>El envío de correo falló.</h1>";
+
+echo "<script>location.href = '../index.php';</script>";
