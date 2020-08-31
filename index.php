@@ -12,17 +12,17 @@
  ?>
  <div class="row" id="banner">
  	<div class="col-12">
- 		<img src="img/banner1.png" width="100%">
+ 		<img src="img/banner1.png" width="100%" id="imagen-principal">
  	</div>
  </div>
  <div class="row">
  	<div class="col-12 display-flex" id="texto-productos">
- 		<h2 class="margin-auto espacio titulo">Productos</h2>
+ 		<h2 class="margin-auto espacio titulo titular">Productos</h2>
  	</div>
  </div>
  <div class="row display-flex" id="productos">
  	<div class="margin-auto row">
- 		<div class="col-6 col-md-4 row">
+ 		<div class="col-6 col-lg-4 row">
  			<div class="col-12 display-flex padding-cont">
  				<img src="img/imagen-1.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalNoRealizado">
  			</div>
@@ -30,41 +30,41 @@
  				<h4 class="margin-auto" id="texto-pr">Stickers para bicis</h4>
  			</div>
  		</div>
- 		<div class="col-6 col-md-4 row">
+ 		<div class="col-6 col-lg-4 row">
  			<div class="col-12 display-flex padding-cont">
- 				<img src="img/imagen-2.png" class="margin-auto" id="img-producto">
+ 				<img src="img/imagen-2.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalSublimado">
  			</div>
  			<div class="col-12 display-flex padding-cont">
  				<h4 class="margin-auto" id="texto-pr">Sublimado</h4>
  			</div>
  		</div>
- 		<div class="col-6 col-md-4 row">
+ 		<div class="col-6 col-lg-4 row">
  			<div class="col-12 display-flex padding-cont">
- 				<img src="img/imagen-3.png" class="margin-auto" id="img-producto">
+ 				<img src="img/imagen-3.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalMoto">
  			</div>
  			<div class="col-12 display-flex padding-cont">
  				<h4 class="margin-auto" id="texto-pr">Diseño de vinil para motos</h4>
  			</div>
  		</div>
- 		<div class="col-6 col-md-4 row">
+ 		<div class="col-6 col-lg-4 row">
  			<div class="col-12 display-flex padding-cont">
- 				<img src="img/imagen-4.png" class="margin-auto" id="img-producto">
+ 				<img src="img/imagen-4.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalRotulado">
  			</div>
  			<div class="col-12 display-flex padding-cont">
  				<h4 class="margin-auto" id="texto-pr">Rotulado de autos</h4>
  			</div>
  		</div>
- 		<div class="col-6 col-md-4 row">
+ 		<div class="col-6 col-lg-4 row">
  			<div class="col-12 display-flex padding-cont">
- 				<img src="img/imagen-5.png" class="margin-auto" id="img-producto">
+ 				<img src="img/imagen-5.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalPlayeras">
  			</div>
  			<div class="col-12 display-flex padding-cont">
  				<h4 class="margin-auto" id="texto-pr">Diseño de playeras</h4>
  			</div>
  		</div>
- 		<div class="col-6 col-md-4 row">
+ 		<div class="col-6 col-lg-4 row">
  			<div class="col-12 display-flex padding-cont">
- 				<img src="img/imagen-6.png" class="margin-auto" id="img-producto">
+ 				<img src="img/imagen-6.png" class="margin-auto" id="img-producto" data-toggle="modal" data-target="#modalTarjetas">
  			</div>
  			<div class="col-12 display-flex padding-cont">
  				<h4 class="margin-auto" id="texto-pr">Diseño de tarjetas y lonas</h4>
@@ -74,18 +74,18 @@
  </div>
  <div class="row" id="ubicacion">
  	<div class="col-12 display-flex">
- 		<h2 class="titulo margin-auto espacio">Ubicación</h2>
+ 		<h2 class="titulo margin-auto espacio titular">Ubicación</h2>
  	</div>
  	<div class="col-12">
  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.4455532137032!2d-101.18207757077153!3d20.143131558231804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cfabefff9b5bf%3A0x8d402e65397625a2!2sSebasti%C3%A1n%20Lerdo%20de%20Tejada%2033%2C%20Zona%20Centro%2C%2038980%20Uriangato%2C%20Gto.!5e0!3m2!1ses!2smx!4v1598129195716!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
  	</div>
  	<div class="col-12 display-flex">
- 		<h5 class="margin-auto espacio titulo">Lerdo de Tejada #17 C Col. Centro Uriangato Gto Tel: <a href="tel:4451119595" class="numero">445 111 9595</a></h5>
+ 		<h5 class="margin-auto espacio titulo" id="direccion">Lerdo de Tejada #17 C Col. Centro Uriangato Gto Tel: <a href="tel:4451119595" class="numero">445 111 9595</a></h5>
  	</div>
  </div>
  <div class="row" id="contacto">
  	<div class="col-12 display-flex">
- 		<h2 class="titulo margin-auto espacio">Contacto</h2>
+ 		<h2 class="titulo margin-auto espacio titular">Contacto</h2>
  	</div>
  	<div class="col-12 display-flex" id="formulario">
  		<form class="margin-auto" method="post" action="php/correo.php">
@@ -112,11 +112,16 @@
  		</form>
  	</div>
  	<div class="col-12 display-flex">
- 		<h3 class="titulo margin-auto espacio">O contactanos por Whatsapp  <span><a href="https://wa.link/gvh1r1" target="blank"><img src="img/whatsapp.png" height="40px"></a></span></h3>
+ 		<h3 class="titulo margin-auto espacio" id="whatsapp">O contactanos por Whatsapp  <span><a href="https://wa.link/gvh1r1" target="blank"><img src="img/whatsapp.png" height="40px"></a></span></h3>
  	</div>
  </div>
  <?php
- 	include 'php/modal-sticker.php'; 
+ 	include 'php/modal-sticker.php';
+ 	include 'php/modal-sublimado.php';
+ 	include 'php/modal-motos.php';
+ 	include 'php/modal-rotulado.php';
+ 	include 'php/modal-playeras.php';
+ 	include 'php/modal-tarjetas.php'; 
  	include 'php/footer.php';
   ?>
 </div>

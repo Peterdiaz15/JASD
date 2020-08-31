@@ -45,9 +45,22 @@
 	font-size: 0.8rem;
 }
 @media (max-width: 991.98px) { 
-.img-footer{
-	height: 40px;
- }
+	.img-footer{
+		height: 60px;
+	}
+	#foot{
+		background: transparent;
+		height: 150px;
+	}
+	#contenedor3{
+		height: 80px;
+	}
+	#contenedor2 h6 {
+		font-size: 2rem;
+	}
+	#contenedor3 a img {
+    height: 75px;
+	}
 }
 @media (max-width: 767.98px) {
 #foot {

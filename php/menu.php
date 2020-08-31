@@ -24,21 +24,30 @@
   }
   @media (max-width: 991.98px) { 
     nav{
-       padding-top: inherit !important;
-       height: 90px;
-    }
-    #navbarNavDropdown {
+     padding-top: 22px !important;
+     height: 100px;
+   }
+   #brand{
+    height: 80px;
+  }
+  #img-menu{
+    height: 60px;
+  }
+  .nav-link{
+    font-size: 2rem;
+  }
+  #navbarNavDropdown {
     z-index: 1;
     background: rgba(35,35,35);
     margin-top: 10px;
-    }
-    #productos>div:first-child {
-      width: 100%; 
-    }
-    #formulario>form {
+  }
+  #productos>div:first-child {
+    width: 100%; 
+  }
+  #formulario>form {
     width: 90%;
-    }
-   }
+  }
+}
 /*  @media (max-width: 1500px){
     .titulo{
       font-size: 1rem;

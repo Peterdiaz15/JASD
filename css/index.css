@@ -81,6 +81,22 @@ label{
 .numero:hover{
 	color: #00B6DF;
 }
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: block;
+  background: #FF9C4C;
+  color: white;
+  padding: 0.3rem 1rem;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+  .back-to-top:hover {
+    opacity: 1;
+  }
   @media (max-width: 991.98px) { 
 
     #productos>div:first-child {
@@ -92,32 +108,29 @@ label{
     .titulo{
     	text-align: center;
     }
+    #direccion{
+      font-size: 1.5rem;
+    }
+    #whatsapp{
+      font-size: 2.5rem;
+    }
+    #whatsapp>span>a>img{
+      height: 60px;
+    }
+    .titular{
+      font-size: 3rem;
+    }
    }
 
    /*Animaciones*/
-   @keyframes expandir {
+   /*@keyframes expandir {
   from {
   	transform: scale(1,1);
   }
   to {
   	transform: scale(1.2,1.2);
   }
-}
+}*/
 
-.back-to-top {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  display: block;
-  background: tomato;
-  color: white;
-  padding: 0.3rem 1rem;
-  transition: all 0.5s linear;
-  cursor: pointer;
-  opacity: 0.3;
-}
 
-  .back-to-top:hover {
-    opacity: 1;
-  }
 
